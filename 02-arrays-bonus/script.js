@@ -79,7 +79,7 @@ console.log(isFabioPresent);
 // con il ciclo for attraverso tutti gli elementi fino all'ultimo
 // Ho letto che potevo usare anche il Join ma non avendolo fatto ho optato per questa soluzione
 // Con il join dovrebbe essere cosi ----> const teachersString = teachers.join(', ');console.log(teachersString);
-// ho preferito l'altra opzione per il ciclo for che è cio che richiede la traccia
+// ho preferito l'altra opzione più lunga utilizzando il ciclo for perchè è ciò che richiede la traccia
 let teachersString = '';
 
 for (let i = 0; i < teachers.length; i++) {
